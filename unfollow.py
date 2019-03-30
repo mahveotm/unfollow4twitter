@@ -24,7 +24,7 @@ print("let's unfollow these bastards!")
 
 def unfollow():
 	for followed in friends:
-		if followed not in followers:
+		if followed not in followers and followed.followers_count >10000:
 			api.destroy_friendship(followed)
 			
 while True:
