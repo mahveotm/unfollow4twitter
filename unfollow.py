@@ -1,6 +1,8 @@
 #this script unfollows everyone that does not follow you back on twitter
 #you need developers access on twitter to be able to run this bot
-#I've been able to successfully deploy this script to unfollow around 2k accounts at once, but I cannot give assurance that further usage MAY not lead to a suspension from twitter. I don't know what the rules are but if you unfollow too many people at a go on twitter, they might suspend you account for some time.
+#I've been able to successfully deploy this script to unfollow around 2k accounts at once.
+#I cannot give assurance that further usage MAY not lead to a suspension from twitter. 
+#I don't know what the rules are but if you unfollow too many people at a go on twitter, they might suspend you account for some time.
 import tweepy
 
 
